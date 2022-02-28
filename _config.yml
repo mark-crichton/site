@@ -20,11 +20,19 @@
 
 title: Mark Crichton
 email: mark.cricht0n@icloud.com
+tagline: Portfolio/Website for Mark Crichton
 description: >- # this means to ignore newlines until "baseurl:"
-  Mark Crichton's Website; I need to write a description here
+  I use this website as a portfolio of myself
+  and for projects that I like doing from
+  time to time.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://markcrichton.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: "mark-crichton"
+logo: "https://markcrichton.com/img/work.png"
+social:
+  name: Mark Crichton
+  links:
+    - https://github.com/mark-crichton
 # Build settings
 theme: jekyll-shell-theme
 plugins:
@@ -41,6 +49,7 @@ highlighter: rouge #selecting the highlighter, default is rouge
 header_pages:
   - index.md
   - projects/index.md
+  - about.md
 
 # controls how big the shell and font looks
 font-size: small # options: [small] or [large]
